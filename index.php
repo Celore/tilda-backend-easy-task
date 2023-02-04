@@ -2,7 +2,10 @@
 
 declare(strict_types=1);
 
-require_once 'src/StairsPrinter.php';
+
+use Yushenkov\Tilda\Stairs\StairsPrinter;
+
+require_once 'vendor/autoload.php';
 
 $stairs = new StairsPrinter(100);
 $stairs->print();

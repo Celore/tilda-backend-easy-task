@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Yushenkov\Tilda\Stairs;
+
 class StairsPrinter
 {
     const DELIMITER = ' ';
