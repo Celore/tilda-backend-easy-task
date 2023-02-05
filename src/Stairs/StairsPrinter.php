@@ -43,6 +43,7 @@ class StairsPrinter
                 $this->echoBreakRow();
             }
         }
+        $this->echoBreakRow();
     }
 
     private function countDigits(int $num): int

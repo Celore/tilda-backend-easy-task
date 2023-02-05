@@ -1,0 +1,19 @@
+{
+    "name": "yushenkov/tilda",
+    "description": "3 Simple Tasks",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Yushenkov\\Tilda\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eugene Yushenkov",
+            "email": "ieklers@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}
